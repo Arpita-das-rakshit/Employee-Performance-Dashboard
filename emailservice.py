@@ -5,8 +5,8 @@ from email.mime.base import MIMEBase
 from email import encoders
 
 def send_email(to_email, subject, body, attachment):
-    sender = "arpitadasofficial20@gmail.com"
-    password = "bcju kakr rjcx kppv"  # app password
+    sender = "your mail id"
+    password = "your app password"  # app password
 
     try:
         msg = MIMEMultipart()
